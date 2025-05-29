@@ -11,7 +11,7 @@ SERVER_ADDRESS = ('localhost', 9999)
 
 class WebcamVideoStream:
     def __init__(self):
-        self.stream = cv2.VideoCapture(1)
+        self.stream = cv2.VideoCapture(2)
         self.ret, self.frame = self.stream.read()
         self.stopped = False
     def start(self):

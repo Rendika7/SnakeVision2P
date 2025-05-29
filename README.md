@@ -40,6 +40,10 @@ Dua pemain dapat bersaing secara real-time menggunakan gerakan tubuh yang didete
 
    ```bash
    python main.py
+
+   or
+
+   python UDPmain.py
    ```
 
 
@@ -67,7 +71,10 @@ SnakeVision2P/
 │   ├── grape.png
 │   ├── Banner_Generated_byChatGPT.png
 │   └── strawberry.png
-├── SnakeVision2P.py         
+├── SnakeVision2P.py
+├── UDPmain.py
+├── UDPcontroller.py 
+├── UDPSnakeGame2Player.py        
 ├── game-control-using-object-tracking-multithreaded-2players.py 
 ├── requirements.txt
 └── main.py                 
